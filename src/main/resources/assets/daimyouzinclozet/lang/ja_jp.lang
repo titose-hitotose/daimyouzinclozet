@@ -1,0 +1,17 @@
+#日本語
+
+#Tab
+
+itemGroup.doresuup=ドレスアップ
+
+#Armor
+
+item.item_armor1_boots.name=白兎下
+item.item_armor1_chestplate.name=白兎上
+item.item_armor1_helmet.name=白兎頭
+item.item_armor2_boots.name=騎士下
+item.item_armor2_chestplate.name=騎士上
+item.item_armor2_helmet.name=騎士頭
+item.item_armor3_boots.name=旅人下
+item.item_armor3_chestplate.name=旅人上
+item.item_armor3_helmet.name=旅人頭

@@ -48,6 +48,7 @@ public class DaimyouzinClozetBlocks {
     public static void registerBlockNotItem(Block block, ItemBlock item) {
         RegistrationHandler.BLOCKS.add(block);
         item.setRegistryName(block.getRegistryName());
+        DaimyouzinClozetItems.RegistrationHandler.ITEMS.add(item);
     }
 
     /*ここまで So far↑ */

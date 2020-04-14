@@ -14,12 +14,16 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 import titose.daimyouzinclozet.init.blocks.Akusesutando1;
+import titose.daimyouzinclozet.init.blocks.Akusesutando2;
+import titose.daimyouzinclozet.init.blocks.Fuku1;
 import titose.daimyouzinclozet.main.Reference;
 
 public class DaimyouzinClozetBlocks {
 	 /* 追加するブロックの宣言 Declare blocks to add. */
 
     public static Block akusesutando1;
+    public static Block akusesutando2;
+    public static Block fuku1;
 
 
     /* ブロックのインスタンスを生成 Instantiate blocks. */
@@ -27,6 +31,10 @@ public class DaimyouzinClozetBlocks {
 
         akusesutando1 = new Akusesutando1().setRegistryName("akusesutando1")
         		.setUnlocalizedName("akusesutando1").setCreativeTab(DaimyouzinClozetTabs.komono);
+        akusesutando2 = new Akusesutando2().setRegistryName("akusesutando2")
+        		.setUnlocalizedName("akusesutando2").setCreativeTab(DaimyouzinClozetTabs.komono);
+        fuku1 = new Fuku1().setRegistryName("fuku1")
+        		.setUnlocalizedName("fuku1").setCreativeTab(DaimyouzinClozetTabs.komono);
 
     }
 
@@ -34,6 +42,8 @@ public class DaimyouzinClozetBlocks {
     /* ブロックを登録する、ここから Register Blocks. From here. ↓*/
     public static void register() {
         registerBlockNotItem(akusesutando1);
+        registerBlockNotItem(akusesutando2);
+        registerBlockNotItem(fuku1);
 
 
     }
@@ -58,6 +68,8 @@ public class DaimyouzinClozetBlocks {
     * Register rendering of ItemBlocks in drop and inventory. From here↓*/
     public static void registerRenders() {
         registerRender(akusesutando1);
+        registerRender(akusesutando2);
+        registerRender(fuku1);
 
     }
 

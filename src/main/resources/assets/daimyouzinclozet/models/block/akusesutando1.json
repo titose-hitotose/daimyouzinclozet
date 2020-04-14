@@ -3,7 +3,7 @@
 	"textures": {
 		"0": "daimyouzinclozet:blocks/siro1",
 		"1": "daimyouzinclozet:blocks/siro2",
-		"2": "daimyouzinclozet:blocks/akuse1",
+		"2": "daimyouzinclozet:blocks/akuse2",
 		"particle": "daimyouzinclozet:blocks/siro1"
 	},
 	"elements": [

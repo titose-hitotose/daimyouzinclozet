@@ -13,6 +13,8 @@ public class DaimyouzinClozetArmorMaterial {
 			.addArmorMaterial("item_armor2", "daimyouzinclozet:item_armor2", 17, new int[] { 2, 6, 7, 2 }, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0);
 	public static ArmorMaterial item_armor3 = EnumHelper
 			.addArmorMaterial("item_armor3", "daimyouzinclozet:item_armor3", 17, new int[] { 2, 6, 7, 2 }, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0);
+	public static ArmorMaterial item_armor4 = EnumHelper
+			.addArmorMaterial("item_armor4", "daimyouzinclozet:item_armor4", 17, new int[] { 2, 6, 7, 2 }, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0);
 	/* .addArmorMaterial(name, textureName, durability, reductionAmounts, enchantability, soundOnEquip, toughness)
 	 * name "Material名"
 	 * textureName テクスチャの名前 "Modid:pngファイル名の_layer前まで"

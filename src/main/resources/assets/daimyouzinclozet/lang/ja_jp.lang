@@ -3,6 +3,7 @@
 #Tab
 
 itemGroup.doresuup=ドレスアップ
+itemGroup.komono=小物
 
 #Armor
 
@@ -15,3 +16,13 @@ item.item_armor2_helmet.name=騎士頭
 item.item_armor3_boots.name=旅人下
 item.item_armor3_chestplate.name=旅人上
 item.item_armor3_helmet.name=旅人頭
+item.item_armor4_boots.name=黒猫下
+item.item_armor4_chestplate.name=黒猫上
+item.item_armor4_helmet.name=黒猫頭
+
+
+#Block
+tile.akusesutando1.name=アクセサリースタンド姫
+tile.akusesutando2.name=アクセサリースタンド魔女
+tile.fuku1.name=黒兎
+

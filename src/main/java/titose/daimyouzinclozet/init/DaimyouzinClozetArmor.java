@@ -13,6 +13,7 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import titose.daimyouzinclozet.init.items.armor.Item_Armor1;
 import titose.daimyouzinclozet.init.items.armor.Item_Armor2;
 import titose.daimyouzinclozet.init.items.armor.Item_Armor3;
+import titose.daimyouzinclozet.init.items.armor.Item_Armor4;
 
 
 
@@ -21,6 +22,7 @@ public class DaimyouzinClozetArmor {
 	public static Item item_armor1_helmet,item_armor1_chestplate,item_armor1_boots;
 	public static Item item_armor2_helmet,item_armor2_chestplate,item_armor2_boots;
 	public static Item item_armor3_helmet,item_armor3_chestplate,item_armor3_boots;
+	public static Item item_armor4_helmet,item_armor4_chestplate,item_armor4_boots;
 
 	public static void init() {
 		//アイテムのインスタンス(実体)生成
@@ -36,6 +38,10 @@ public class DaimyouzinClozetArmor {
 		item_armor3_helmet = new Item_Armor3(3,EntityEquipmentSlot.HEAD).setRegistryName("item_armor3_helmet").setUnlocalizedName("item_armor3_helmet").setCreativeTab(DaimyouzinClozetTabs.doresuup);
 		item_armor3_chestplate = new Item_Armor3(3,EntityEquipmentSlot.CHEST).setRegistryName("item_armor3_chestplate").setUnlocalizedName("item_armor3_chestplate").setCreativeTab(DaimyouzinClozetTabs.doresuup);
 		item_armor3_boots = new Item_Armor3(3,EntityEquipmentSlot.FEET).setRegistryName("item_armor3_boots").setUnlocalizedName("item_armor3_boots").setCreativeTab(DaimyouzinClozetTabs.doresuup);
+
+		item_armor4_helmet = new Item_Armor4(4,EntityEquipmentSlot.HEAD).setRegistryName("item_armor4_helmet").setUnlocalizedName("item_armor4_helmet").setCreativeTab(DaimyouzinClozetTabs.doresuup);
+		item_armor4_chestplate = new Item_Armor4(4,EntityEquipmentSlot.CHEST).setRegistryName("item_armor4_chestplate").setUnlocalizedName("item_armor4_chestplate").setCreativeTab(DaimyouzinClozetTabs.doresuup);
+		item_armor4_boots = new Item_Armor4(4,EntityEquipmentSlot.FEET).setRegistryName("item_armor4_boots").setUnlocalizedName("item_armor4_boots").setCreativeTab(DaimyouzinClozetTabs.doresuup);
 	}
 	public static void register() {
 		registerItem(item_armor1_helmet);
@@ -49,6 +55,10 @@ public class DaimyouzinClozetArmor {
 		registerItem(item_armor3_helmet);
 		registerItem(item_armor3_chestplate);
 		registerItem(item_armor3_boots);
+
+		registerItem(item_armor4_helmet);
+		registerItem(item_armor4_chestplate);
+		registerItem(item_armor4_boots);
 	}
 	public static void registerItem(Item item) {
 		RegistrationHandler.ITEMS.add(item);
@@ -67,6 +77,10 @@ public class DaimyouzinClozetArmor {
 		registerRender(item_armor3_helmet);
 		registerRender(item_armor3_chestplate);
 		registerRender(item_armor3_boots);
+
+		registerRender(item_armor4_helmet);
+		registerRender(item_armor4_chestplate);
+		registerRender(item_armor4_boots);
 	}
 	private static void registerRender(Item item) {
 		ModelLoader.setCustomModelResourceLocation(item, 0,

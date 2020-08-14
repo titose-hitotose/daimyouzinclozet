@@ -15,6 +15,28 @@ public class DaimyouzinClozetArmorMaterial {
 			.addArmorMaterial("item_armor3", "daimyouzinclozet:item_armor3", 17, new int[] { 2, 6, 7, 2 }, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0);
 	public static ArmorMaterial item_armor4 = EnumHelper
 			.addArmorMaterial("item_armor4", "daimyouzinclozet:item_armor4", 17, new int[] { 2, 6, 7, 2 }, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0);
+	public static ArmorMaterial item_armor5 = EnumHelper
+			.addArmorMaterial("item_armor5", "daimyouzinclozet:item_armor5", 17, new int[] { 2, 6, 7, 2 }, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0);
+	public static ArmorMaterial item_armor6 = EnumHelper
+			.addArmorMaterial("item_armor6", "daimyouzinclozet:item_armor6", 17, new int[] { 2, 6, 7, 2 }, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0);
+	public static ArmorMaterial item_armor7 = EnumHelper
+			.addArmorMaterial("item_armor7", "daimyouzinclozet:item_armor7", 17, new int[] { 2, 6, 7, 2 }, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0);
+	public static ArmorMaterial item_armor8 = EnumHelper
+			.addArmorMaterial("item_armor8", "daimyouzinclozet:item_armor8", 17, new int[] { 2, 6, 7, 2 }, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0);
+	public static ArmorMaterial item_armor9 = EnumHelper
+			.addArmorMaterial("item_armor9", "daimyouzinclozet:item_armor9", 17, new int[] { 2, 6, 7, 2 }, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0);
+	public static ArmorMaterial item_armor10 = EnumHelper
+			.addArmorMaterial("item_armor10", "daimyouzinclozet:item_armor10", 17, new int[] { 2, 6, 7, 2 }, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0);
+	public static ArmorMaterial item_armor11 = EnumHelper
+			.addArmorMaterial("item_armor11", "daimyouzinclozet:item_armor11", 17, new int[] { 2, 6, 7, 2 }, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0);
+	public static ArmorMaterial item_armor12 = EnumHelper
+			.addArmorMaterial("item_armor12", "daimyouzinclozet:item_armor12", 17, new int[] { 2, 6, 7, 2 }, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0);
+	public static ArmorMaterial item_armor13 = EnumHelper
+			.addArmorMaterial("item_armor13", "daimyouzinclozet:item_armor13", 17, new int[] { 2, 6, 7, 2 }, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0);
+	public static ArmorMaterial item_armor14 = EnumHelper
+			.addArmorMaterial("item_armor14", "daimyouzinclozet:item_armor14", 17, new int[] { 2, 6, 7, 2 }, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0);
+	public static ArmorMaterial item_armor15 = EnumHelper
+			.addArmorMaterial("item_armor15", "daimyouzinclozet:item_armor15", 17, new int[] { 2, 6, 7, 2 }, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0);
 	/* .addArmorMaterial(name, textureName, durability, reductionAmounts, enchantability, soundOnEquip, toughness)
 	 * name "Material名"
 	 * textureName テクスチャの名前 "Modid:pngファイル名の_layer前まで"

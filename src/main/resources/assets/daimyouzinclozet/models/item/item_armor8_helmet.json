@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures":
+    {
+        "layer0": "daimyouzinclozet:items/item_armor8_helmet"
+    }
+}

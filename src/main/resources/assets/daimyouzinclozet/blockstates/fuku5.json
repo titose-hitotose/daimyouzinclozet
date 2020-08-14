@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "daimyouzinclozet:fuku5"},
+        "facing=south": { "model": "daimyouzinclozet:fuku5", "y": 180},
+        "facing=west":  { "model": "daimyouzinclozet:fuku5", "y": 270},
+        "facing=east":  { "model": "daimyouzinclozet:fuku5", "y": 90}
+    }
+}

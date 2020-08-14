@@ -17,6 +17,7 @@ import net.minecraft.world.World;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
+
 public class Fuku1 extends Block{
 
 	public static final PropertyDirection FACING;
@@ -75,10 +76,13 @@ public class Fuku1 extends Block{
         return BlockRenderLayer.CUTOUT;
     }
 
+
+
+
+
 	@Deprecated
     public BlockFaceShape getBlockFaceShape(IBlockAccess worldIn, IBlockState state, BlockPos pos, EnumFacing face)
     {
         return BlockFaceShape.BOWL;
     }
-
 }

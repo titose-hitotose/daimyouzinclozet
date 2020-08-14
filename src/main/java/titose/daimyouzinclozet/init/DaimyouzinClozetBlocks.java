@@ -16,6 +16,10 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 import titose.daimyouzinclozet.init.blocks.Akusesutando1;
 import titose.daimyouzinclozet.init.blocks.Akusesutando2;
 import titose.daimyouzinclozet.init.blocks.Fuku1;
+import titose.daimyouzinclozet.init.blocks.Fuku2;
+import titose.daimyouzinclozet.init.blocks.Fuku3;
+import titose.daimyouzinclozet.init.blocks.Fuku4;
+import titose.daimyouzinclozet.init.blocks.Fuku5;
 import titose.daimyouzinclozet.main.Reference;
 
 public class DaimyouzinClozetBlocks {
@@ -24,6 +28,12 @@ public class DaimyouzinClozetBlocks {
     public static Block akusesutando1;
     public static Block akusesutando2;
     public static Block fuku1;
+    public static Block fuku2;
+    public static Block fuku3;
+    public static Block fuku4;
+    public static Block fuku5;
+
+
 
 
     /* ブロックのインスタンスを生成 Instantiate blocks. */
@@ -35,6 +45,16 @@ public class DaimyouzinClozetBlocks {
         		.setUnlocalizedName("akusesutando2").setCreativeTab(DaimyouzinClozetTabs.komono);
         fuku1 = new Fuku1().setRegistryName("fuku1")
         		.setUnlocalizedName("fuku1").setCreativeTab(DaimyouzinClozetTabs.komono);
+        fuku2 = new Fuku2().setRegistryName("fuku2")
+        		.setUnlocalizedName("fuku2").setCreativeTab(DaimyouzinClozetTabs.komono);
+        fuku3 = new Fuku3().setRegistryName("fuku3")
+        		.setUnlocalizedName("fuku3").setCreativeTab(DaimyouzinClozetTabs.komono);
+        fuku4 = new Fuku4().setRegistryName("fuku4")
+        		.setUnlocalizedName("fuku4").setCreativeTab(DaimyouzinClozetTabs.komono);
+        fuku5 = new Fuku5().setRegistryName("fuku5")
+        		.setUnlocalizedName("fuku5").setCreativeTab(DaimyouzinClozetTabs.komono);
+
+
 
     }
 
@@ -44,6 +64,12 @@ public class DaimyouzinClozetBlocks {
         registerBlockNotItem(akusesutando1);
         registerBlockNotItem(akusesutando2);
         registerBlockNotItem(fuku1);
+        registerBlockNotItem(fuku2);
+        registerBlockNotItem(fuku3);
+        registerBlockNotItem(fuku4);
+        registerBlockNotItem(fuku5);
+
+
 
 
     }
@@ -70,6 +96,11 @@ public class DaimyouzinClozetBlocks {
         registerRender(akusesutando1);
         registerRender(akusesutando2);
         registerRender(fuku1);
+        registerRender(fuku2);
+        registerRender(fuku3);
+        registerRender(fuku4);
+        registerRender(fuku5);
+
 
     }
 
